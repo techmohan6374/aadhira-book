@@ -1,7 +1,7 @@
 const SingleFlipBook = {
     template: `
-    <div id="singleFlipBook">
-       <div class="container-fluid p-0">
+    <div>
+       <div class="container-fluid p-0 flex" style="height:100vh;background-color:#363265;" id="singleFlipBook">
             <div id="flipbookPDFContainer"></div>
        </div>
     </div>
@@ -12,13 +12,15 @@ const SingleFlipBook = {
         this.selectedPdfUrl = this.files[this.index];
         console.log(this.selectedPdfUrl);
         var source_pdf = this.selectedPdfUrl;
-        setTimeout(()=>{
+        if (this.index == 0) {
             var option_pdf = { webgl: true, backgroundColor: "#363265" };
+        }
+        setTimeout(() => {
             var flipBook_pdf = $("#flipbookPDFContainer").flipBook(
                 source_pdf,
                 option_pdf
             );
-        },2000)
+        }, 2000)
     },
     data() {
         return {
