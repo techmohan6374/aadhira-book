@@ -3,7 +3,7 @@ const Main = {
     <div id="mainPage">
        <div class="container-fluid p-0">
             <header class="flex pt-4">
-                <h1>ஆதிரா புத்தகங்கள்</h1>
+                <h1>ஆதிரா புத்தகங்கள்</h1>          
             </header>
             <div class="container">
                 <div class="row py-4">
@@ -23,6 +23,10 @@ const Main = {
                     </div>
                 </div>
             </div>
+            <footer class="flex">
+                © Copyright Aadhira Books - 2024
+                <span class="flex"><iconify-icon icon="emojione-monotone:eye-in-speech-bubble"></iconify-icon> Viewers : 5</span>
+            </footer>
        </div>
     </div>
     `,
