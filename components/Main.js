@@ -5,27 +5,28 @@ const Main = {
             <header class="flex pt-4">
                 <h1>ஆதிரா புத்தகங்கள்</h1>          
             </header>
-            <div class="container">
+            <div class="container" style="padding-bottom:40px;">
                 <div class="row py-4">
-                    <div class="col-12 col-xl-6">
+                    <div class="col-12 col-xl-6 mb-4" v-for="books in aadhiraBooksData">
                         <div class="card book-card">
                             <div class="card-image">
-                                <img src="/resources/images/Books/1.jpg" alt="Book Cover" loading="lazy"/>
+                                <img :src="books.coverImage" alt="Book Cover" loading="lazy"/>
                             </div>
                             <div class="card-content mt-2">
-                                <h6>மகாபாரதம் பகவான் ஸ்ரீ கிருஷ்ணர்</h6>
-                                <button class="flex" v-on:click="openFlipBook(0)">
+                                <h6>{{books.titleName}} <span class="book-badge">நூல்- {{books.id}}</span></h6>
+                                <h5>{{books.subTitleName}}</h5>
+                                <button class="flex" v-on:click="openFlipBook(books.id)">
                                     <iconify-icon icon="octicon:book-16"></iconify-icon>
                                     பார்க்கவும்
                                 </button>
                             </div>
                         </div>
-                    </div>
+                    </div> 
                 </div>
             </div>
             <footer class="flex">
                 © Copyright Aadhira Books - 2024
-                <span class="flex"><iconify-icon icon="emojione-monotone:eye-in-speech-bubble"></iconify-icon> Viewers : 5</span>
+                <span class="flex"><iconify-icon icon="emojione-monotone:eye-in-speech-bubble"></iconify-icon> Viewers : 31</span>
             </footer>
        </div>
     </div>
@@ -35,7 +36,32 @@ const Main = {
     },
     data() {
         return {
-
+            aadhiraBooksData:[
+                {
+                    id:1,
+                    titleName:'மகாபாரத சாகரம்',
+                    subTitleName:'பகவான் ஸ்ரீ கிருஷ்ணர்',
+                    coverImage:'/resources/images/Books/1.jpg',
+                },
+                {
+                    id:2,
+                    titleName:'மகாபாரத சாகரம்',
+                    subTitleName:'சாந்தி பருவம் - பொது செய்திகள்',
+                    coverImage:'/resources/images/Books/2.jpg',
+                },
+                {
+                    id:3,
+                    titleName:'மகாபாரத சாகரம்',
+                    subTitleName:'அனுசாஸன பருவம் - பொது செய்திகள்',
+                    coverImage:'/resources/images/Books/3.jpg',
+                },
+                {
+                    id:4,
+                    titleName:'மகாபாரத சாகரம்',
+                    subTitleName:'அஸ்வமேதிக பருவம் - பொது செய்திகள்',
+                    coverImage:'/resources/images/Books/4.jpg',
+                },
+            ]
         };
     },
     methods: {

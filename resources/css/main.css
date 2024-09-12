@@ -39,11 +39,16 @@
 }
 
 #mainPage .card-content h6 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     font-family: "Hind Madurai", sans-serif;
+}
 
+#mainPage .card-content h5 {
+    font-size: 15px;
+    text-align: center;
+    font-family: "Hind Madurai", sans-serif;
 }
 
 #mainPage .card-content button {
@@ -63,26 +68,36 @@
     font-size: 20px;
 }
 
+#mainPage .card-content .book-badge {
+    background-color: #363265;
+    color:white;
+    font-size: 14px;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
 #mainPage .card-content button:hover {
     background-color: rgb(31, 30, 30);
 }
 
-#mainPage footer{
+#mainPage footer {
     width: 100%;
     background-color: black;
-    height:50px;
+    height: 50px;
     position: fixed;
-    bottom:0px;
-    color:white;
+    bottom: 0px;
+    color: white;
     text-align: center;
-    gap:15px;
-    font-size:14px;
+    gap: 15px;
+    font-size: 14px;
 }
-#mainPage footer span{
+
+#mainPage footer span {
     background-color: #f1c40f;
-    color:black;
-    gap:5px;
-    padding:4px 10px;
+    color: black;
+    gap: 5px;
+    padding: 4px 10px;
     font-weight: bold;
     border-radius: 5px;
 }

@@ -9,10 +9,20 @@ const SingleFlipBook = {
     created() {
         this.index = this.$route.params.id;
         console.log(this.index);
-        this.selectedPdfUrl = this.files[this.index];
+
+        this.selectedPdfUrl = this.files.filter(x => x.id == this.index).map(x => x.pdfUrl)[0];
         console.log(this.selectedPdfUrl);
         var source_pdf = this.selectedPdfUrl;
-        if (this.index == 0) {
+        if (this.index == 1) {
+            var option_pdf = { webgl: true, backgroundColor: "#363265" };
+        }
+        else if (this.index == 2) {
+            var option_pdf = { webgl: true, backgroundColor: "#363265" };
+        }
+        else if (this.index == 3) {
+            var option_pdf = { webgl: true, backgroundColor: "#363265" };
+        }
+        else if (this.index == 4) {
             var option_pdf = { webgl: true, backgroundColor: "#363265" };
         }
         setTimeout(() => {
@@ -24,7 +34,24 @@ const SingleFlipBook = {
     },
     data() {
         return {
-            files: ['/resources/pdf/Books/1.pdf'],
+            files: [
+                {
+                    id: 1,
+                    pdfUrl: '/resources/pdf/Books/1.pdf'
+                },
+                {
+                    id: 2,
+                    pdfUrl: '/resources/pdf/Books/2.pdf'
+                },
+                {
+                    id: 3,
+                    pdfUrl: '/resources/pdf/Books/3.pdf'
+                },
+                {
+                    id: 4,
+                    pdfUrl: '/resources/pdf/Books/4.pdf'
+                }
+            ],
             index: null,
             selectedPdfUrl: "",
         };
