@@ -37,19 +37,19 @@ const SingleFlipBook = {
             files: [
                 {
                     id: 1,
-                    pdfUrl: '/resources/pdf/Books/1.pdf'
+                    pdfUrl: 'resources/pdf/Books/1.pdf'
                 },
                 {
                     id: 2,
-                    pdfUrl: '/resources/pdf/Books/2.pdf'
+                    pdfUrl: 'resources/pdf/Books/2.pdf'
                 },
                 {
                     id: 3,
-                    pdfUrl: '/resources/pdf/Books/3.pdf'
+                    pdfUrl: 'resources/pdf/Books/3.pdf'
                 },
                 {
                     id: 4,
-                    pdfUrl: '/resources/pdf/Books/4.pdf'
+                    pdfUrl: 'resources/pdf/Books/4.pdf'
                 }
             ],
             index: null,

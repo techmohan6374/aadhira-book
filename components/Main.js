@@ -41,25 +41,25 @@ const Main = {
                     id:1,
                     titleName:'மகாபாரத சாகரம்',
                     subTitleName:'பகவான் ஸ்ரீ கிருஷ்ணர்',
-                    coverImage:'/resources/images/Books/1.jpg',
+                    coverImage:'resources/images/Books/1.jpg',
                 },
                 {
                     id:2,
                     titleName:'மகாபாரத சாகரம்',
                     subTitleName:'சாந்தி பருவம் - பொது செய்திகள்',
-                    coverImage:'/resources/images/Books/2.jpg',
+                    coverImage:'resources/images/Books/2.jpg',
                 },
                 {
                     id:3,
                     titleName:'மகாபாரத சாகரம்',
                     subTitleName:'அனுசாஸன பருவம் - பொது செய்திகள்',
-                    coverImage:'/resources/images/Books/3.jpg',
+                    coverImage:'resources/images/Books/3.jpg',
                 },
                 {
                     id:4,
                     titleName:'மகாபாரத சாகரம்',
                     subTitleName:'அஸ்வமேதிக பருவம் - பொது செய்திகள்',
-                    coverImage:'/resources/images/Books/4.jpg',
+                    coverImage:'resources/images/Books/4.jpg',
                 },
             ]
         };
