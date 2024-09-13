@@ -29,7 +29,7 @@ const SingleFlipBook = {
             var audioElement = document.getElementById('flipbookAudio');
             audioElement.src = audioUrl;
             audioElement.play(); // Start playing the audio
-        }, 2000);
+        }, 4000);
     },
     data() {
         return {
