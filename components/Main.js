@@ -61,6 +61,30 @@ const Main = {
                     subTitleName: 'அஸ்வமேதிக பருவம் - பொது செய்திகள்',
                     coverImage: 'resources/images/Books/4.jpg',
                 },
+                {
+                    id: 5,
+                    titleName: 'மகாபாரத சாகரம்',
+                    subTitleName: 'முனிவர்களும், தேவர்களும் ',
+                    coverImage: 'resources/images/Books/5.jpg',
+                },
+                {
+                    id: 6,
+                    titleName: 'மகாபாரத சாகரம்',
+                    subTitleName: 'மன்னர்கள் மற்றும் சில வரலாறுகள்',
+                    coverImage: 'resources/images/Books/6.jpg',
+                },
+                {
+                    id: 7,
+                    titleName: 'மகாபாரத சாகரம்',
+                    subTitleName: 'பாண்டவர் தரப்பு முக்கிய வீரர்கள் ',
+                    coverImage: 'resources/images/Books/7.jpg',
+                },
+                {
+                    id: 8,
+                    titleName: 'மகாபாரத சாகரம்',
+                    subTitleName: 'கௌரவர்  தரப்பு முக்கிய வீரர்கள் ',
+                    coverImage: 'resources/images/Books/8.jpg',
+                }
             ],
             introductionContainer: true,
             mainContainer: false,
