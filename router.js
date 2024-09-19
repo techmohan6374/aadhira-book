@@ -1,5 +1,6 @@
 const routes = [
-    { path: '/', component: Main },
+    { path: '/', component: introduction },
+    { path: '/Main', component: Main },
     { path: '/singleflipBook/:id', component: SingleFlipBook }
 ];
 
