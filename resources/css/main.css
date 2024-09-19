@@ -1,3 +1,65 @@
+#mainPage .introduction {
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    background-image: linear-gradient(52deg, rgba(163, 163, 163, 0.09) 0%, rgba(163, 163, 163, 0.09) 33.3%, rgba(100, 100, 100, 0.09) 33.3%, rgba(100, 100, 100, 0.09) 66.6%, rgba(162, 162, 162, 0.09) 66.6%, rgba(162, 162, 162, 0.09) 99%), linear-gradient(258deg, rgba(193, 193, 193, 0.06) 0%, rgba(193, 193, 193, 0.06) 33.3%, rgba(169, 169, 169, 0.06) 33.3%, rgba(169, 169, 169, 0.06) 66.6%, rgba(92, 92, 92, 0.06) 66.6%, rgba(92, 92, 92, 0.06) 99%), linear-gradient(129deg, rgba(45, 45, 45, 0.03) 0%, rgba(45, 45, 45, 0.03) 33.3%, rgba(223, 223, 223, 0.03) 33.3%, rgba(223, 223, 223, 0.03) 66.6%, rgba(173, 173, 173, 0.03) 66.6%, rgba(173, 173, 173, 0.03) 99%), linear-gradient(280deg, rgba(226, 226, 226, 0.06) 0%, rgba(226, 226, 226, 0.06) 33.3%, rgba(81, 81, 81, 0.06) 33.3%, rgba(81, 81, 81, 0.06) 66.6%, rgba(186, 186, 186, 0.06) 66.6%, rgba(186, 186, 186, 0.06) 99%), linear-gradient(85deg, rgba(225, 225, 225, 0.04) 0%, rgba(225, 225, 225, 0.04) 33.3%, rgba(95, 95, 95, 0.04) 33.3%, rgba(95, 95, 95, 0.04) 66.6%, rgba(39, 39, 39, 0.04) 66.6%, rgba(39, 39, 39, 0.04) 99%), linear-gradient(128deg, rgba(184, 184, 184, 0.06) 0%, rgba(184, 184, 184, 0.06) 33.3%, rgba(0, 0, 0, 0.06) 33.3%, rgba(0, 0, 0, 0.06) 66.6%, rgba(140, 140, 140, 0.06) 66.6%, rgba(140, 140, 140, 0.06) 99.89999999999999%), linear-gradient(323deg, rgba(40, 40, 40, 0.07) 0%, rgba(40, 40, 40, 0.07) 33.3%, rgba(214, 214, 214, 0.07) 33.3%, rgba(214, 214, 214, 0.07) 66.6%, rgba(190, 190, 190, 0.07) 66.6%, rgba(190, 190, 190, 0.07) 99.89999999999999%), linear-gradient(61deg, rgba(230, 230, 230, 0) 0%, rgba(230, 230, 230, 0) 33.3%, rgba(241, 241, 241, 0) 33.3%, rgba(241, 241, 241, 0) 66.6%, rgba(55, 55, 55, 0) 66.6%, rgba(55, 55, 55, 0) 99%), linear-gradient(0deg, #2625e3, #0bbaef);
+    padding-bottom: 90px;
+    overflow: auto hidden;
+}
+
+#mainPage .intro-card {
+    margin-top: 20px;
+    background-color: white;
+}
+
+#mainPage .intro-text {
+    margin-bottom: 15px;
+}
+
+#mainPage .intro-text div {
+    background-color: #363265;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#mainPage p {
+    margin: 0px;
+}
+
+#mainPage .text-1,
+.text-2,
+.text-3,
+.text-4,
+.text-5,
+.text-6,
+.text-7,
+.text-8,
+.text-9,
+.text-10,
+.text-11,
+.text-12,
+.text-13,
+.text-14,
+.text-15,
+.text-16,
+.text-17,
+.text-18 {
+    font-family: "Noto Sans Tamil", sans-serif;
+    font-optical-sizing: auto;
+    line-height: 30px;
+}
+
+#mainPage .bold-text {
+    font-weight: bold;
+    font-family: "Noto Sans Tamil", sans-serif;
+    font-optical-sizing: auto;
+}
+
 #mainPage .container-fluid {
     min-height: 100vh;
     background-image: linear-gradient(52deg, rgba(163, 163, 163, 0.09) 0%, rgba(163, 163, 163, 0.09) 33.3%, rgba(100, 100, 100, 0.09) 33.3%, rgba(100, 100, 100, 0.09) 66.6%, rgba(162, 162, 162, 0.09) 66.6%, rgba(162, 162, 162, 0.09) 99%), linear-gradient(258deg, rgba(193, 193, 193, 0.06) 0%, rgba(193, 193, 193, 0.06) 33.3%, rgba(169, 169, 169, 0.06) 33.3%, rgba(169, 169, 169, 0.06) 66.6%, rgba(92, 92, 92, 0.06) 66.6%, rgba(92, 92, 92, 0.06) 99%), linear-gradient(129deg, rgba(45, 45, 45, 0.03) 0%, rgba(45, 45, 45, 0.03) 33.3%, rgba(223, 223, 223, 0.03) 33.3%, rgba(223, 223, 223, 0.03) 66.6%, rgba(173, 173, 173, 0.03) 66.6%, rgba(173, 173, 173, 0.03) 99%), linear-gradient(280deg, rgba(226, 226, 226, 0.06) 0%, rgba(226, 226, 226, 0.06) 33.3%, rgba(81, 81, 81, 0.06) 33.3%, rgba(81, 81, 81, 0.06) 66.6%, rgba(186, 186, 186, 0.06) 66.6%, rgba(186, 186, 186, 0.06) 99%), linear-gradient(85deg, rgba(225, 225, 225, 0.04) 0%, rgba(225, 225, 225, 0.04) 33.3%, rgba(95, 95, 95, 0.04) 33.3%, rgba(95, 95, 95, 0.04) 66.6%, rgba(39, 39, 39, 0.04) 66.6%, rgba(39, 39, 39, 0.04) 99%), linear-gradient(128deg, rgba(184, 184, 184, 0.06) 0%, rgba(184, 184, 184, 0.06) 33.3%, rgba(0, 0, 0, 0.06) 33.3%, rgba(0, 0, 0, 0.06) 66.6%, rgba(140, 140, 140, 0.06) 66.6%, rgba(140, 140, 140, 0.06) 99.89999999999999%), linear-gradient(323deg, rgba(40, 40, 40, 0.07) 0%, rgba(40, 40, 40, 0.07) 33.3%, rgba(214, 214, 214, 0.07) 33.3%, rgba(214, 214, 214, 0.07) 66.6%, rgba(190, 190, 190, 0.07) 66.6%, rgba(190, 190, 190, 0.07) 99.89999999999999%), linear-gradient(61deg, rgba(230, 230, 230, 0) 0%, rgba(230, 230, 230, 0) 33.3%, rgba(241, 241, 241, 0) 33.3%, rgba(241, 241, 241, 0) 66.6%, rgba(55, 55, 55, 0) 66.6%, rgba(55, 55, 55, 0) 99%), linear-gradient(0deg, #2625e3, #0bbaef);
@@ -100,4 +162,214 @@
     padding: 4px 10px;
     font-weight: bold;
     border-radius: 5px;
+}
+
+#mainPage .intro-footer-text {
+    position: fixed;
+    bottom: 10px;
+    left: 0px;
+    width: 100%;
+    height: 70px;
+}
+
+#mainPage .book-view-count {
+    border: none;
+    outline: none;
+    font-weight: bold;
+    padding: 10px 30px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    border: 2px solid transparent;
+    gap: 5px;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#mainPage .book-view-count iconify-icon {
+    font-size: 25px;
+}
+
+/* Media Query */
+@media screen and (min-width:1024px) {
+
+    #mainPage .text-1,
+    .text-2,
+    .text-3,
+    .text-4,
+    .text-5,
+    .text-6,
+    .text-7,
+    .text-8,
+    .text-9,
+    .text-10,
+    .text-11,
+    .text-12,
+    .text-13,
+    .text-14,
+    .text-15,
+    .text-16,
+    .text-17,
+    .text-18 {
+        font-family: "Noto Sans Tamil", sans-serif;
+        font-optical-sizing: auto;
+        line-height: 30px;
+    }
+
+    #mainPage .intro-card {
+        padding: 20px 40px;
+    }
+
+    #mainPage .text-1 {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    #mainPage .text-2 {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    #mainPage .text-3 {
+        text-align: center;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    #mainPage .text-4 {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    #mainPage .text-5 {
+        text-align: center;
+    }
+
+    #mainPage .text-6 {
+        margin-top: 20px;
+    }
+
+    #mainPage .text-6,
+    #mainPage .text-7,
+    #mainPage .text-8,
+    #mainPage .text-9,
+    #mainPage .text-10,
+    #mainPage .text-11,
+    #mainPage .text-12,
+    #mainPage .text-13,
+    #mainPage .text-14,
+    #mainPage .text-15 {
+        font-size: 16px;
+        text-indent: 100px;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+    #mainPage .text-16,
+    #mainPage .text-17,
+    #mainPage .text-18 {
+        text-align: right;
+        font-size: 16px;
+    }
+
+    #mainPage .text-17,
+    #mainPage .text-18 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+}
+
+
+@media screen and (max-width:1023px) {
+
+    #mainPage .intro-card {
+        padding: 10px 25px;
+    }
+
+    #mainPage .text-1,
+    .text-2,
+    .text-3,
+    .text-4,
+    .text-5,
+    .text-6,
+    .text-7,
+    .text-8,
+    .text-9,
+    .text-10,
+    .text-11,
+    .text-12,
+    .text-13,
+    .text-14,
+    .text-15,
+    .text-16,
+    .text-17,
+    .text-18 {
+        font-family: "Noto Sans Tamil", sans-serif;
+        font-optical-sizing: auto;
+        line-height: 25px;
+    }
+
+
+    #mainPage .text-1 {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    #mainPage .text-2 {
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    #mainPage .text-3 {
+        text-align: center;
+        font-size: 25px;
+        font-weight: bolder;
+        margin-bottom: 10px;
+    }
+
+    #mainPage .text-4 {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    #mainPage .text-5 {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    #mainPage .text-6 {
+        margin-top: 20px;
+    }
+
+    #mainPage .text-6,
+    #mainPage .text-7,
+    #mainPage .text-8,
+    #mainPage .text-9,
+    #mainPage .text-10,
+    #mainPage .text-11,
+    #mainPage .text-12,
+    #mainPage .text-13,
+    #mainPage .text-14,
+    #mainPage .text-15 {
+        font-size: 14px;
+        text-indent: 50px;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+    #mainPage .text-16,
+    #mainPage .text-17,
+    #mainPage .text-18 {
+        text-align: right;
+        font-size: 16px;
+    }
+
+    #mainPage .text-17,
+    #mainPage .text-18 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
 }
