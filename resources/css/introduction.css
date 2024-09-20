@@ -212,10 +212,10 @@
 @media screen and (max-width:1023px) {
 
     #introPage .download-intro-btn {
-        right: 8px;
-        top: 8px;
-        width: 35px;
-        height: 35px;
+        right: 10px;
+        top: 10spx;
+        width: 38px;
+        height: 38px;
         font-size: 18px;
     }
 
