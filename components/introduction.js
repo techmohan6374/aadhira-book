@@ -10,6 +10,9 @@ const introduction = {
         <div class="row">
             <div class="col-12">
                 <div class="card intro-card">
+                    <a href="resources/pdf/Books/Introduction.pdf" class="download-intro-btn flex" download>
+                        <iconify-icon icon="ic:file-download"></iconify-icon>
+                    </a>
                     <p class="text-1">உ</p>
                     <p class="text-2">ஓம் நமோ பகவதே வாசுதேவாய</p>
                     <p class="text-3">மகாபாரத சாகரம்</p>
