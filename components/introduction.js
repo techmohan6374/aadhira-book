@@ -8,6 +8,42 @@ const introduction = {
     </header>
     <div class="container">
         <div class="row">
+            <div class="col-12 mt-4">
+                 <div class="book-slider-container owl-carousel">
+                        <div class="book-slider flex" v-on:click="openSingleBook(1)">
+                            <iconify-icon icon="twemoji:closed-book"></iconify-icon>
+                            <div class="book-number">நூல்-1</div>
+                        </div>
+                        <div class="book-slider flex" v-on:click="openSingleBook(2)">
+                            <iconify-icon icon="twemoji:green-book"></iconify-icon>
+                            <div class="book-number">நூல்-2</div>
+                        </div>
+                        <div class="book-slider flex" v-on:click="openSingleBook(3)">
+                            <iconify-icon icon="twemoji:orange-book"></iconify-icon>
+                            <div class="book-number">நூல்-3</div>
+                        </div>
+                        <div class="book-slider flex" v-on:click="openSingleBook(4)">
+                            <iconify-icon icon="twemoji:blue-book"></iconify-icon>
+                            <div class="book-number">நூல்-4</div>
+                        </div>
+                        <div class="book-slider flex" v-on:click="openSingleBook(5)">
+                            <iconify-icon icon="twemoji:closed-book"></iconify-icon>
+                            <div class="book-number">நூல்-5</div>
+                        </div>
+                        <div class="book-slider flex" v-on:click="openSingleBook(6)">
+                            <div class="book-number">நூல்-6</div>
+                            <iconify-icon icon="twemoji:green-book"></iconify-icon>
+                        </div>
+                        <div class="book-slider flex" v-on:click="openSingleBook(7)">
+                            <iconify-icon icon="twemoji:orange-book"></iconify-icon>
+                            <div class="book-number">நூல்-7</div>
+                        </div>
+                        <div class="book-slider flex" v-on:click="openSingleBook(8)">
+                            <iconify-icon icon="twemoji:blue-book"></iconify-icon>
+                            <div class="book-number">நூல்-8</div>
+                        </div>
+                    </div>
+            </div>
             <div class="col-12">
                 <div class="card intro-card">
                     <a href="resources/pdf/Books/Introduction.pdf" class="download-intro-btn flex" download>
@@ -81,10 +117,10 @@ const introduction = {
                         ஊக்கமும், ஆலோசனைகளும் அளித்த எங்கள் மகன் <span class="bold-text">திரு.நம்பிசங்கரன்</span> 
                         (CA,⠀USA) மகள் <span class="bold-text">திருமதி.பிரியதர்சினி சரவணன்</span> (CA,⠀USA) இருவருக்கும்
                         அன்பும் வாழ்த்துக்களும் உரியதாகும்.
-                        இப்பெரும் நூலினை சிறப்பாகத் தட்டச்சு செய்து கொடுத்த சேலம்-3, ஸ்டார் கிராபிக்ஸ் <span
-                            class="bold-text">மனோகர்</span> அவர்களுக்கு என மனமார்ந்த நன்றியைத் தெரிவித்துக் கொள்கிறேன்.
-                        வலைத்தளம் உருவாக்கிய சேலம்-16, ஸ்டார் கிராபிக்ஸ் <span class="bold-text">வீராசாமி,</span>
-                        செல்வன் <span class="bold-text">மோகன்ராஜ்</span> த/பெ.மனோகர் இருவருக்கும் வாழ்த்துக்கள்.
+                        இப்பெரும் நூலினை சிறப்பாகத் தட்டச்சு செய்து கொடுத்த <a href="https://stargraphix.in/" target="_blank" style="color:black;"><span
+                            class="bold-text">மனோகர்</span></a> அவர்களுக்கு என மனமார்ந்த நன்றியைத் தெரிவித்துக் கொள்கிறேன்.
+                        வலைத்தளம் உருவாக்கிய <a href="https://stargraphix.in/" target="_blank" style="color:black;"><span class="bold-text">வீராசாமி,</span></a>
+                        செல்வன் <a href="https://stargraphix.in/" target="_blank" style="color:black;"><span class="bold-text">மோகன்ராஜ்</span></a> த/பெ.மனோகர் இருவருக்கும் வாழ்த்துக்கள்.
                     </p>
                     <p class="text-14">
                         இன்றைய திசை திருப்பப்பட்ட வாழ்க்கை முறையில் மறைக்கப்பட்ட தர்மத்தை அடிப்படையாகக் கொண்ட வாழ்வியல்
@@ -132,6 +168,17 @@ const introduction = {
     methods: {
         openBooks() {
             this.$router.push(`/Main`);
+        },
+        openSingleBook(id){
+            this.$router.push(`/singleflipBook/${id}`);
         }
     },
+    mounted() {
+        $(".owl-carousel").owlCarousel({
+            loop: false,
+            margin: 0,
+            nav: false,
+            dots: false,
+        });
+    }
 };
