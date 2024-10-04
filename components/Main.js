@@ -26,7 +26,7 @@ const Main = {
             </div>
             <footer class="flex">
                 © Copyright Aadhira Books - 2024
-                <span class="flex"><iconify-icon icon="emojione-monotone:eye-in-speech-bubble"></iconify-icon> Viewers : 227</span>
+                <span class="flex"><iconify-icon icon="emojione-monotone:eye-in-speech-bubble"></iconify-icon> Viewers : 234</span>
             </footer>
        </div>
     </div>
@@ -76,14 +76,38 @@ const Main = {
                 {
                     id: 7,
                     titleName: 'மகாபாரத சாகரம்',
-                    subTitleName: 'பாண்டவர் தரப்பு முக்கிய வீரர்கள் ',
+                    subTitleName: 'பாண்டவர் தரப்பு முக்கிய வீரர்கள்',
                     coverImage: 'resources/images/Books/7.jpg',
                 },
                 {
                     id: 8,
                     titleName: 'மகாபாரத சாகரம்',
-                    subTitleName: 'கௌரவர்  தரப்பு முக்கிய வீரர்கள் ',
+                    subTitleName: 'கௌரவர்  தரப்பு முக்கிய வீரர்கள்',
                     coverImage: 'resources/images/Books/8.jpg',
+                },
+                {
+                    id:9,
+                    titleName: 'மகாபாரத சாகரம்',
+                    subTitleName: 'மகாபாரதத்தில் சில சான்றோர்கள்',
+                    coverImage: 'resources/images/Books/9.jpg',
+                },
+                {
+                    id:10,
+                    titleName: 'மகாபாரத சாகரம்',
+                    subTitleName: 'கங்கையின் மைந்தர் பீஷ்மர்',
+                    coverImage: 'resources/images/Books/10.jpg',
+                },
+                {
+                    id:11,
+                    titleName: 'மகாபாரத சாகரம்',
+                    subTitleName: 'தந்தை துரோணரும் தனயன் அஸ்வத்தாமாவும்',
+                    coverImage: 'resources/images/Books/11.jpg',
+                },
+                {
+                    id:12,
+                    titleName: 'மகாபாரத சாகரம்',
+                    subTitleName: 'திருதராஷ்டிர மன்னர்',
+                    coverImage: 'resources/images/Books/12.jpg',
                 }
             ],
             introductionContainer: true,

@@ -42,6 +42,22 @@ const introduction = {
                             <iconify-icon icon="twemoji:blue-book"></iconify-icon>
                             <div class="book-number">நூல்-8</div>
                         </div>
+                         <div class="book-slider flex" v-on:click="openSingleBook(9)">
+                           <iconify-icon icon="twemoji:closed-book"></iconify-icon>
+                            <div class="book-number">நூல்-9</div>
+                        </div>
+                         <div class="book-slider flex" v-on:click="openSingleBook(10)">
+                            <iconify-icon icon="twemoji:green-book"></iconify-icon>
+                            <div class="book-number">நூல்-10</div>
+                        </div>
+                         <div class="book-slider flex" v-on:click="openSingleBook(11)">
+                            <iconify-icon icon="twemoji:orange-book"></iconify-icon>
+                            <div class="book-number">நூல்-11</div>
+                        </div>
+                         <div class="book-slider flex" v-on:click="openSingleBook(12)">
+                            <iconify-icon icon="twemoji:blue-book"></iconify-icon>
+                            <div class="book-number">நூல்-12</div>
+                        </div>
                     </div>
             </div>
             <div class="col-12">
