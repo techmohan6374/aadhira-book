@@ -8,7 +8,7 @@ const Main = {
             <div class="container" style="padding-bottom:40px;">
                 <div class="row py-4">
                     <div class="col-12 col-xl-6 mb-4" v-for="books in aadhiraBooksData">
-                        <div class="card book-card">
+                        <div class="card book-card" data-aos="flip-left">
                             <div class="card-image">
                                 <img :src="books.coverImage" alt="Book Cover" loading="lazy"/>
                             </div>
