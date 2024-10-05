@@ -133,8 +133,8 @@ const introduction = {
                         ஊக்கமும், ஆலோசனைகளும் அளித்த எங்கள் மகன் <span class="bold-text">திரு.நம்பிசங்கரன்</span> 
                         (CA,⠀USA) மகள் <span class="bold-text">திருமதி.பிரியதர்சினி சரவணன்</span> (CA,⠀USA) இருவருக்கும்
                         அன்பும் வாழ்த்துக்களும் உரியதாகும்.
-                        இப்பெரும் நூலினை சிறப்பாகத் தட்டச்சு செய்து கொடுத்த <a href="https://stargraphix.in/" target="_blank" style="color:black;"><span
-                            class="bold-text">மனோகர்</span></a> அவர்களுக்கு என மனமார்ந்த நன்றியைத் தெரிவித்துக் கொள்கிறேன்.
+                        இப்பெரும் நூலினை சிறப்பாகத் தட்டச்சு செய்து கொடுத்த <a href="https://stargraphix.in/" target="_blank" style="color:black;">
+                        சகோதரர் <span class="bold-text">மனோகர் (ஸ்டார் கிராபிக்ஸ்) </span></a> அவர்களுக்கு என மனமார்ந்த நன்றியைத் தெரிவித்துக் கொள்கிறேன்.
                         வலைத்தளம் உருவாக்கிய <a href="https://stargraphix.in/" target="_blank" style="color:black;"><span class="bold-text">வீராசாமி,</span></a>
                         செல்வன் <a href="https://stargraphix.in/" target="_blank" style="color:black;"><span class="bold-text">மோகன்ராஜ்</span></a> த/பெ.மனோகர் இருவருக்கும் வாழ்த்துக்கள்.
                     </p>

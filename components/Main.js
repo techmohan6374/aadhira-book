@@ -86,25 +86,25 @@ const Main = {
                     coverImage: 'resources/images/Books/8.jpg',
                 },
                 {
-                    id:9,
+                    id: 9,
                     titleName: 'மகாபாரத சாகரம்',
                     subTitleName: 'மகாபாரதத்தில் சில சான்றோர்கள்',
                     coverImage: 'resources/images/Books/9.jpg',
                 },
                 {
-                    id:10,
+                    id: 10,
                     titleName: 'மகாபாரத சாகரம்',
                     subTitleName: 'கங்கையின் மைந்தர் பீஷ்மர்',
                     coverImage: 'resources/images/Books/10.jpg',
                 },
                 {
-                    id:11,
+                    id: 11,
                     titleName: 'மகாபாரத சாகரம்',
                     subTitleName: 'தந்தை துரோணரும் தனயன் அஸ்வத்தாமாவும்',
                     coverImage: 'resources/images/Books/11.jpg',
                 },
                 {
-                    id:12,
+                    id: 12,
                     titleName: 'மகாபாரத சாகரம்',
                     subTitleName: 'திருதராஷ்டிர மன்னர்',
                     coverImage: 'resources/images/Books/12.jpg',
@@ -119,4 +119,10 @@ const Main = {
             this.$router.push(`/singleflipBook/${id}`);
         }
     },
+    mounted() {
+        let text = "தந்தை துரோணரும் தனயன் அஸ்வத்தாமாவும்";
+        let parts = text.split(' ');
+        let formattedText = parts.slice(0, 2).join(' ') + "<br>" + parts.slice(2).join(' ');
+        $("#mainPage .col-12:nth-child(11) .card h5").html(formattedText);
+    }
 };
