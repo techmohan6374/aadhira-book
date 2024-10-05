@@ -121,8 +121,12 @@ const Main = {
     },
     mounted() {
         let text = "தந்தை துரோணரும் தனயன் அஸ்வத்தாமாவும்";
-        let parts = text.split(' ');
-        let formattedText = parts.slice(0, 2).join(' ') + "<br>" + parts.slice(2).join(' ');
-        $("#mainPage .col-12:nth-child(11) .card h5").html(formattedText);
+
+        if (window.innerWidth <= 768) { // Check for mobile screen size
+            let parts = text.split(' ');
+            let formattedText = parts.slice(0, 2).join(' ') + "<br>" + parts.slice(2).join(' ');
+            $("#mainPage .col-12:nth-child(11) .card h5").html(formattedText);
+        }
+        
     }
 };
