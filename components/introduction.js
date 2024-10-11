@@ -4,7 +4,7 @@ const introduction = {
     
       <div class="introduction">
     <header class="flex pt-4">
-        <h1>முன்னுரை</h1>
+        <h1 class="text-focus-in">முன்னுரை</h1>
     </header>
     <div class="container">
         <div class="row">
@@ -58,7 +58,15 @@ const introduction = {
                             <iconify-icon icon="twemoji:blue-book"></iconify-icon>
                             <div class="book-number">நூல்-12</div>
                         </div>
-                    </div>
+                         <div class="book-slider flex" v-on:click="openSingleBook(13)">
+                           <iconify-icon icon="twemoji:closed-book"></iconify-icon>
+                            <div class="book-number">நூல்-13</div>
+                        </div>
+                         <div class="book-slider flex" v-on:click="openBooks()">
+                            <iconify-icon icon="twemoji:green-book"></iconify-icon>
+                            <div class="book-number">நூல்-14</div>
+                        </div>
+                </div>
             </div>
             <div class="col-12">
                 <div class="card intro-card">
@@ -164,7 +172,7 @@ const introduction = {
             </div>
         </div>
     </div>
-    <div class="intro-footer-text flex">
+    <div class="intro-footer-text flex bounce-in-top">
         <button class="book-view-count flex" v-on:click="openBooks()">
             <iconify-icon icon="majesticons:open"></iconify-icon>
             புத்தககங்களை பார்க்கவும்
@@ -185,7 +193,7 @@ const introduction = {
         openBooks() {
             this.$router.push(`/Main`);
         },
-        openSingleBook(id){
+        openSingleBook(id) {
             this.$router.push(`/singleflipBook/${id}`);
         }
     },

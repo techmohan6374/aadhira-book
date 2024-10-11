@@ -3,7 +3,7 @@ const Main = {
     <div id="mainPage">
        <div class="container-fluid p-0">
             <header class="flex pt-4">
-                <h1>ஆதிரா புத்தகங்கள்</h1>          
+                <h1 class="text-focus-in">ஆதிரா புத்தகங்கள்</h1>          
             </header>
             <div class="container" style="padding-bottom:40px;">
                 <div class="row py-4">
@@ -108,6 +108,30 @@ const Main = {
                     titleName: 'மகாபாரத சாகரம்',
                     subTitleName: 'திருதராஷ்டிர மன்னர்',
                     coverImage: 'resources/images/Books/12.jpg',
+                },
+                {
+                    id: 13,
+                    titleName: 'மகாபாரத சாகரம்',
+                    subTitleName: 'மகாபாரதம் அறிய வேண்டிய அரிய செய்திகள்',
+                    coverImage: 'resources/images/Books/13.jpg'
+                },
+                {
+                    id: 14,
+                    titleName: 'மகாபாரத சாகரம்',
+                    subTitleName: 'தருமராஜன் யுதிஷ்டிரர் (பாகம் - 1)',
+                    coverImage: 'resources/images/Books/14-1.jpg'
+                },
+                {
+                    id:14,
+                    titleName:'மகாபாரத சாகரம்',
+                    subTitleName:'தருமராஜன் யுதிஷ்டிரர் (பாகம் - 2)',
+                    coverImage: 'resources/images/Books/14-2.jpg'
+                },
+                {
+                    id:14,
+                    titleName:'மகாபாரத சாகரம்',
+                    subTitleName:'தருமராஜன் யுதிஷ்டிரர் (பாகம் - 3)',
+                    coverImage: 'resources/images/Books/14-3.jpg'
                 }
             ],
             introductionContainer: true,
@@ -127,6 +151,6 @@ const Main = {
             let formattedText = parts.slice(0, 2).join(' ') + "<br>" + parts.slice(2).join(' ');
             $("#mainPage .col-12:nth-child(11) .card h5").html(formattedText);
         }
-        
+
     }
 };

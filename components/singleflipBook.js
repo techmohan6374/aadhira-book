@@ -37,63 +37,83 @@ const SingleFlipBook = {
                 {
                     id: 1,
                     pdfUrl: 'resources/pdf/Books/1.pdf',
-                    audioUrl:'resources/audio/Books/1.mp3'
+                    audioUrl: 'resources/audio/Books/1.mp3'
                 },
                 {
                     id: 2,
                     pdfUrl: 'resources/pdf/Books/2.pdf',
-                    audioUrl:'resources/audio/Books/2.mp3'
+                    audioUrl: 'resources/audio/Books/2.mp3'
                 },
                 {
                     id: 3,
                     pdfUrl: 'resources/pdf/Books/3.pdf',
-                    audioUrl:'resources/audio/Books/3.mp3'
+                    audioUrl: 'resources/audio/Books/3.mp3'
                 },
                 {
                     id: 4,
                     pdfUrl: 'resources/pdf/Books/4.pdf',
-                    audioUrl:'resources/audio/Books/4.mp3'
+                    audioUrl: 'resources/audio/Books/4.mp3'
                 },
                 {
                     id: 5,
                     pdfUrl: 'resources/pdf/Books/5.pdf',
-                    audioUrl:'resources/audio/Books/5.mp3'
+                    audioUrl: 'resources/audio/Books/5.mp3'
                 },
                 {
                     id: 6,
                     pdfUrl: 'resources/pdf/Books/6.pdf',
-                    audioUrl:'resources/audio/Books/6.mp3'
+                    audioUrl: 'resources/audio/Books/6.mp3'
                 },
                 {
                     id: 7,
                     pdfUrl: 'resources/pdf/Books/7.pdf',
-                    audioUrl:'resources/audio/Books/7.mp3'
+                    audioUrl: 'resources/audio/Books/7.mp3'
                 },
                 {
                     id: 8,
                     pdfUrl: 'resources/pdf/Books/8.pdf',
-                    audioUrl:'resources/audio/Books/8.mp3'
+                    audioUrl: 'resources/audio/Books/8.mp3'
                 },
                 {
                     id: 9,
                     pdfUrl: 'resources/pdf/Books/9.pdf',
-                    audioUrl:'resources/audio/Books/9.mp3'
+                    audioUrl: 'resources/audio/Books/9.mp3'
                 },
                 {
                     id: 10,
                     pdfUrl: 'resources/pdf/Books/10.pdf',
-                    audioUrl:'resources/audio/Books/10.mp3'
+                    audioUrl: 'resources/audio/Books/10.mp3'
                 },
                 {
                     id: 11,
                     pdfUrl: 'resources/pdf/Books/11.pdf',
-                    audioUrl:'resources/audio/Books/11.mp3'
+                    audioUrl: 'resources/audio/Books/11.mp3'
                 },
                 {
                     id: 12,
                     pdfUrl: 'resources/pdf/Books/12.pdf',
-                    audioUrl:'resources/audio/Books/12.mp3'
+                    audioUrl: 'resources/audio/Books/12.mp3'
                 },
+                {
+                    id: 13,
+                    pdfUrl: 'resources/pdf/Books/13.pdf',
+                    audioUrl: 'resources/audio/Books/12.mp3'
+                },
+                {
+                    id: 14,
+                    pdfUrl: 'resources/pdf/Books/14-1.pdf',
+                    audioUrl: 'resources/audio/Books/14-1.mp3'
+                },
+                {
+                    id: 15,
+                    pdfUrl: 'resources/pdf/Books/14-2.pdf',
+                    audioUrl: 'resources/audio/Books/14-2.mp3'
+                },
+                {
+                    id: 16,
+                    pdfUrl: 'resources/pdf/Books/14-3.pdf',
+                    audioUrl: 'resources/audio/Books/14-3.mp3'
+                }
 
             ],
             index: null,
