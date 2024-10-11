@@ -26,7 +26,7 @@ const Main = {
             </div>
             <footer class="flex">
                 © Copyright Aadhira Books - 2024
-                <span class="flex"><iconify-icon icon="emojione-monotone:eye-in-speech-bubble"></iconify-icon> Viewers : 234</span>
+                <span class="flex"><iconify-icon icon="emojione-monotone:eye-in-speech-bubble"></iconify-icon> Viewers : 238</span>
             </footer>
        </div>
     </div>
