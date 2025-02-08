@@ -185,6 +185,27 @@ const Main = {
                     subTitleName: 'துணிவுடைய வீரன் துரியோதனன்',
                     coverImage: 'resources/images/Books/19.jpg',
                     bookNo: 19,
+                },
+                {
+                    id: 22,
+                    titleName: 'மகாபாரத சாகரம்',
+                    subTitleName: 'மகாபாரதத்தில் இடம்பெறும் ஸ்துதிகள்',
+                    coverImage: 'resources/images/Books/20.jpg',
+                    bookNo: 20,
+                },
+                {
+                    id: 23,
+                    titleName: 'மகாபாரத சாகரம்',
+                    subTitleName: 'பாண்டவர், கெளரவர், சேனை விவரங்கள், அசரீரி, வரம் முதலியன',
+                    coverImage: 'resources/images/Books/21.jpg',
+                    bookNo: 21,
+                },
+                {
+                    id: 24,
+                    titleName: 'மகாபாரத சாகரம்',
+                    subTitleName: 'மகாபாரதத்தில் கூறப்படும் தீர்த்தங்கள், மலைகள், வனங்கள், நதிகள், நகரங்கள்,அகர வரிசை குறிப்புகள்',
+                    coverImage: 'resources/images/Books/22.jpg',
+                    bookNo: 22,
                 }
             ],
             introductionContainer: true,

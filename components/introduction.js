@@ -82,9 +82,21 @@ const introduction = {
                             <iconify-icon icon="twemoji:green-book"></iconify-icon>
                             <div class="book-number">நூல்-18</div>
                         </div>
-                            <div class="book-slider flex" v-on:click="openSingleBook(21)">
+                        <div class="book-slider flex" v-on:click="openSingleBook(21)">
                             <iconify-icon icon="twemoji:orange-book"></iconify-icon>
                             <div class="book-number">நூல்-19</div>
+                        </div>
+                        <div class="book-slider flex" v-on:click="openSingleBook(22)">
+                            <iconify-icon icon="twemoji:blue-book"></iconify-icon>
+                            <div class="book-number">நூல்-20</div>
+                        </div>
+                         <div class="book-slider flex" v-on:click="openSingleBook(23)">
+                           <iconify-icon icon="twemoji:closed-book"></iconify-icon>
+                            <div class="book-number">நூல்-21</div>
+                        </div>
+                         <div class="book-slider flex" v-on:click="openSingleBook(24)">
+                            <iconify-icon icon="twemoji:green-book"></iconify-icon>
+                            <div class="book-number">நூல்-22</div>
                         </div>
                 </div>
             </div>

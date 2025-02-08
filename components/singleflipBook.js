@@ -139,6 +139,21 @@ const SingleFlipBook = {
                     pdfUrl: 'resources/pdf/Books/19.pdf',
                     audioUrl: 'resources/audio/Books/19.mp3'
                 },
+                {
+                    id: 22,
+                    pdfUrl: 'resources/pdf/Books/20.pdf',
+                    audioUrl: 'resources/audio/Books/20.mp3'
+                },
+                {
+                    id: 23,
+                    pdfUrl: 'resources/pdf/Books/21.pdf',
+                    audioUrl: 'resources/audio/Books/21.mp3'
+                },
+                {
+                    id: 24,
+                    pdfUrl: 'resources/pdf/Books/22.pdf',
+                    audioUrl: 'resources/audio/Books/22.mp3'
+                },
 
             ],
             index: null,
